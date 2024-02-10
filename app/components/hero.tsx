@@ -19,7 +19,7 @@ export default async function Hero () {
                         Skikurs for alle!!
                     </h1>
                     <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
-                        Skikurs for alle aldre og nivåer. Vi har kurs for klassisk og skøyting. Vi har også kurs for bedrifter og grupper.
+                        Skikurs for alle aldre og nivåer. Vi har kurs i klassisk og skøyting. Vi har også kurs for bedrifter og grupper.
                     </p>
                 </div>
                 <div className="mb-12 flex w-full md:mb-16 lg:w-2/3">

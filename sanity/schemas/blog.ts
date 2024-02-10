@@ -1,33 +1,28 @@
 export default {
-    name: "product",
+    name: "blog",
     type: "document",
-    title: "Product",
+    title: "Blog",
     fields: [
         {
             name: "name",
             type: "string",
-            title: "Name of course",
+            title: "Blog name",
         },
         {
             name: "images",
             type: "array",
-            title: "Course images",
+            title: "Blog images",
             of: [{type: "image"}],
         },
         {
-            name: "description",
+            name: "blogtext",
             type: "text",
-            title: "Description of course",
+            title: "Description of former courses",
         },
         {
         name: "slug",
         type: "slug",
         title: "course Slug",
-        },
-        {
-            name: "price",
-            type: "number",
-            title: "Price of course",
         },
         {
             name: "category",
